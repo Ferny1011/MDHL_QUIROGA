@@ -39,7 +39,7 @@ nav > a {
   display: inline-block;
 }
 
-.home-button {
+.about-button {
   background-color: yellowgreen;
 }
 
@@ -53,6 +53,7 @@ header > img {
   margin-bottom: 1%;
   z-index: -1;
 }
+
 section > h3 {
   border: 1px solid black;
   margin: 0 9.5% 20px;
@@ -63,7 +64,7 @@ section > h3 {
 
 .images {
   display: inline-block;
-  margin: 0 6%;
+  margin: 0 1% 0 6%;
   width: 25%;
 }
 
@@ -72,8 +73,7 @@ section > h3 {
   margin: 0 60px;
   display: block;
 }
-
-.img1 {
+.img2 {
   width: 100%;
   height: 200px;
   object-fit: cover;
@@ -84,14 +84,17 @@ section > h3 {
   display: inline-block;
   width: 50%;
   height: 100%;
-  vertical-align: 150px;
+  vertical-align: 25px;
 }
 
+article {
+  margin-bottom: 3%;
+}
 article > p {
   text-indent: 35px;
   font-size: 1.2rem;
 }
 
-article > h4 {
+article > h3 {
   font-size: 1.5rem;
 }
