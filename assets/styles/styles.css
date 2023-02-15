@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: 'Maitree', serif;
+  width: 100%;
+  height: 100vh;
+  background-color: cadetblue;
+}
+
+header {
+  width: 90%;
+  height: 40vh;
+  margin: 5px 5% 2.5px;
+}
+
+.main-title {
+  font-family: 'Archivo Narrow', sans-serif;
+  padding-left: 5%;
+  font-size: 3rem;
+  color: #FCCA46;
+  text-shadow: 2px 2px 2px #242124;
+}
+
+nav {
+  position: absolute;
+  left: 71%;
+  top: 6%;
+}
+
+nav>a {
+  font-family: 'Noto Serif', serif;
+  padding: 5px 10px;
+  margin: 2px;
+  text-decoration: none;
+  color: #FAFAFF;
+  background-color: #12100e;
+  border: 1px solid #FAFAFF;
+  box-shadow: 5px 5px 3px #242124;
+  display: inline-block;
+}
+
+a[href="#"] {
+  background-color: #FCCA46;
+  border: 1px solid #F05D23
+}
+
+header>img {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  filter: brightness(0.5);
+  display: block;
+  padding: 0px 5%;
+  margin-bottom: 1%;
+  z-index: -1;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  width: 90%;
+  margin: 0 5%;
+}
+
+section>h3 {
+  font-family: 'Noto Serif', serif;
+  color: #FAFAFF;
+  border: 1px solid #F05D23;
+  background-color: #12100e;
+  margin: 1% 5% 20px;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.9rem;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0 60px;
+}
+
+article>p {
+  text-indent: 35px;
+  font-size: 1.2rem;
+}
+
+article>h4 {
+  font-family: 'Noto Serif', serif;
+  font-size: 1.5rem;
+}
+
+
+/*home*/
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  margin: 0 5%;
+}
+
+.logo {
+  width: 72%;
+  margin: 0 6px;
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 0 60px;
+
+}
+
+.img1 {
+  width: 100%;
+  padding: 0px 60px;
+  filter: drop-shadow(5px 5px 3px #242124);
+}
+
+/*about*/
+.logo-about {
+  width: 70%;
+}
+
+.img2 {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/*contact*/
+.logo-contact {
+  width: 20%;
+}
+
+.img3 {
+  width: 100%;
+  margin-bottom: 10%;
+}
