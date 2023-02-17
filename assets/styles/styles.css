@@ -276,6 +276,15 @@ tr:nth-child(even) {
   transition: all 1.5s ease;
 }
 
+.locations{
+  width: 15%;
+  display:flex;
+  margin-left: 12%;
+}
+.locations iframe{
+  margin: 2%;
+}
+
 /*rules*/
 .rules {
   flex-direction: row;
