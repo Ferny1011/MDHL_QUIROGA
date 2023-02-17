@@ -127,8 +127,39 @@ article>h4 {
 
 .img1 {
   width: 100%;
-  padding: 0px 60px;
+  padding: 0px 6px;
   filter: drop-shadow(5px 5px 3px #242124);
+}
+
+aside{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 10%;
+  border: #F05D23 1px solid;
+  padding: 10px;
+  background-color: #12100e;
+  color: #FAFAFF;
+  box-shadow: #12100e 5px 5px 3px;
+}
+
+aside>h3{
+  font-size: 1.5rem;
+  color: #FCCA46;
+  font-family: 'Archivo Narrow', sans-serif;
+
+}
+aside>a{
+  align-self: center;
+  text-decoration: none;
+  color: #FAFAFF;
+  font-size: 1.2rem;
+  margin: 5px;
+  padding: 4px;
+  border: #F05D23 1px solid;
+  border-radius: 9%;
+  background-color: #F05D23;
+  font-family: 'Noto Serif', serif;
 }
 
 /*about*/
@@ -228,6 +259,23 @@ tr:nth-child(even) {
   font-weight: bold;
 }
 
+.mapa {
+  width: 80%;
+  border: 0;
+  margin: 5% 0;
+  align-self: center;
+  padding: 20px;
+  box-shadow:
+    inset 0 -3em 3em #FCCA46,
+    0 0 0 2px #F05D23,
+    0.3em 0.3em 1em #12100e;
+  border-radius: 10px;
+}
+.mapa:hover{
+  transform: translate(0, -20px);
+  transition: all 1.5s ease;
+}
+
 /*rules*/
 .rules {
   flex-direction: row;
@@ -268,3 +316,75 @@ ol>li::marker {
   list-style-type: circle;
   padding-left: 8%;
 }
+
+#imgPet{
+  margin-top:20%;
+  height: 50%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 3px #12100e;
+  filter: grayscale(100%)
+}
+#imgPet:hover{
+  transform: translate(0, -20px);
+  filter: none;
+  transition: all 1.5s ease;
+}
+
+/* form*/
+#form-title{
+  font-family: 'Noto Serif', serif;
+  color: #FAFAFF;
+  border: 1px solid #F05D23;
+  background-color: #12100e;
+  margin: 0 9.5% 20px;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.9rem;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 9.5%;
+  padding: 10px;
+  border: 1px solid #F05D23;
+  background-color: #12100e;
+  color: #FAFAFF;
+  box-shadow: #12100e 5px 5px 3px;
+}
+
+fieldset{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 0 20px 0;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #F05D23;
+}
+
+input{
+  width: 30%;
+  padding: 5px;
+  border: 1px solid #FCCA46;
+  border-radius: 5px;
+  background-color: #12100e;
+  color: #FAFAFF;
+}
+
+#address,#parent,#school{
+  width: 73%;
+}
+
+#female, #male, .grade>input, .positions>input, .sizes>input{
+  width: 1.5%;
+}
+
+#sendButton{
+  width: 20%;
+  font-size: 1.2rem;
+  font-family: 'Noto Serif', serif;
+  margin: 2% 0;
+  align-self: center;
+}
+
